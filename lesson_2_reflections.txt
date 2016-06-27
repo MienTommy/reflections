@@ -1,3 +1,22 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 It creates an empty repository for you. You need to do this because initially there is no repository created. 
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use the git diff --staged to compare the staged area with the most recent commit.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you want to make another version of your application while keeping the original one, for example an easier version of Asteroids. You could also have experimental branches and development branches (context switching). 
+
+
+How do the diagrams help you visualize the branch structure?
+
+It shows how every commit and branches relate to one another.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When we merge two branches, it connects two branches together. The head of each branch combine into one file. We represent it in the way the diagram does because that is the structure of the commits when merged. Commits made by coin will not be a parent of a commit made by master. 
