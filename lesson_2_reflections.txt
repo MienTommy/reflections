@@ -20,3 +20,8 @@ It shows how every commit and branches relate to one another.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 When we merge two branches, it connects two branches together. The head of each branch combine into one file. We represent it in the way the diagram does because that is the structure of the commits when merged. Commits made by coin will not be a parent of a commit made by master. 
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging makes it easier to combine files. Manually merging is tedious. 
